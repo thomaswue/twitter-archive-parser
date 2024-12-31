@@ -1,3 +1,12 @@
+## Modifications
+This version has the following modifications to the original twitter archive parser:
+* Focuses on HTML output and puts all tweets into a single HTML file.
+* Set PROFILE_HANDLE environment variable to your Twitter user name.
+* Set DISPLAY_NAME environment variable to your Twitter display name.
+* Set FAVORITE_COUNT environment variable to filter tweets by a minimum number of likes.
+* Dark mode output.
+* Recognize property "exclude_tweet" in tweets.js file to manually exclude entries from the output.
+
 ## How do I use it?
 1. [Download your Twitter archive](https://twitter.com/settings/download_your_data) (Settings > Your account > Download an archive of your data).
 2. Unzip to a folder.
